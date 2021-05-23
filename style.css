@@ -1,0 +1,72 @@
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #1d244e;
+  /* display: flex; */
+  /* align-items: center; */
+  /* min-width: 440px; */
+  /* line-height: 1.5 ; */
+  /* em? */
+}
+
+#image {
+  opacity: 0.85;
+}
+
+#image:hover {
+  opacity: 1;
+}
+
+#mail {
+  color: #1d244e;
+}
+
+#mail:hover {
+  text-decoration: unset;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: #1d244e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  background-color: #7a71b8;
+  box-shadow: 5px 5px 5px grey;
+  padding: 5rem;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    background-color: #b87a71;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
