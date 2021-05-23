@@ -1,11 +1,6 @@
 body {
   font-family: 'Didact Gothic', sans-serif;
   color: #1d244e;
-  /* display: flex; */
-  /* align-items: center; */
-  /* min-width: 440px; */
-  /* line-height: 1.5 ; */
-  /* em? */
 }
 
 #image {
@@ -32,7 +27,6 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .content {
@@ -60,6 +54,7 @@ span {
     display: block;
     text-align: center;
     padding: 2rem;
+    padding-bottom: 0;
   }
 
   h1 {
@@ -68,5 +63,9 @@ span {
 
   p {
     font-size: 16px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
