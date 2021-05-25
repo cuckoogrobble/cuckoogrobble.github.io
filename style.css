@@ -4,6 +4,7 @@ body {
 }
 
 #image {
+  width: 200px;
   opacity: 0.85;
 }
 
@@ -71,5 +72,9 @@ span {
 
   p:last-child {
     margin-bottom: 0;
+  }
+
+  #image {
+    width: 150px;
   }
 }
