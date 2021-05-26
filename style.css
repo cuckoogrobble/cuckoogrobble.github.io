@@ -1,3 +1,7 @@
+* {
+  margin: 0 0;
+}
+
 body {
   font-family: 'Didact Gothic', sans-serif;
   color: #1d244e;
@@ -30,7 +34,6 @@ body {
 }
 
 .container {
-  /* background-color: black; */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -49,8 +52,13 @@ body {
   max-width: 700px;
 }
 
+h1 {
+  margin: 1rem;
+}
+
 p {
   font-size: 20px;
+  margin: 1rem;
 }
 
 span {
@@ -60,8 +68,8 @@ span {
 
 @media (max-width: 768px) {
   .container {
-    width: 95vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
   }
 
   .content {
