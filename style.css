@@ -7,10 +7,6 @@ body {
   color: #1d244e;
 }
 
-img {
-  pointer-events: none;
-}
-
 #image {
   width: 200px;
   opacity: 0.85;
@@ -22,6 +18,10 @@ img {
 
 #image:hover {
   opacity: 1;
+}
+
+img {
+  pointer-events: none;
 }
 
 #mail {
@@ -83,6 +83,7 @@ span {
     padding: 2rem;
     padding-bottom: 0;
     max-width: 400px;
+    margin: 0 1rem;
   }
 
   h1 {
