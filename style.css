@@ -7,6 +7,10 @@ body {
   color: #1d244e;
 }
 
+img {
+  pointer-events: none;
+}
+
 #image {
   width: 200px;
   opacity: 0.85;
